@@ -4,14 +4,7 @@ public  class VehicleBooking  {
 	String bookingid;
 	Customer customer;
 	Vehicle vehicle;
-	int days;
-	/**
-	 * @param bookingid
-	 * @param customer
-	 * @param vehicle
-	 * @param days
-	 * @param totalCost
-	 */
+	int day, 
 	
 	public VehicleBooking(String bookingid, Customer customer, Vehicle vehicle,int days) {
 		super();
